@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import firstImg from '../portrait-3113651_1920.jpg'
 
 // Header component
 function Header() {
@@ -7,7 +8,7 @@ function Header() {
     <header>
       <div className="logo">
         <a href="/">
-          <img src="portrait-3113651_1920.jpg" alt="CraftChronicles Logo" />
+          <img src= {firstImg} alt="CraftChronicles Logo" />
         </a>
       </div>
       <nav>
