@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import firstImg from '../portrait-3113651_1920.jpg'
+
 
 // Header component
 function Header() {
   return (
     <header>
       <div className="logo">
-        <a href="/">
-          <img src= {firstImg} alt="CraftChronicles Logo" />
-        </a>
+       
       </div>
       <nav>
         <ul>

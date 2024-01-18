@@ -1,6 +1,11 @@
-/* Resetting default margin and font-family */
+ 
+
 body {
   margin: 0;
+  padding: 0;
+  background-image: url('/your-app-name/public/portrait-3113651_1920.jpg');
+  background-size: cover;
+  background-position: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,102 +18,4 @@ code {
     monospace;
 }
 
-/* Your additional styles from the earlier provided CSS */
-
-header {
-  width: 8%;
-  background-repeat: no-repeat;
-  flex: 0 auto;
-  padding-top: 23vh;
-  padding: 10px; /* Adjust the padding to make it smaller */
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: white;
-  text-align: center;
-  display: flex;
-  align-items: center;
-}
-
-nav {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-nav a {
-  list-style: none;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.header-image {
-  list-style: none;
-  max-width: 100%;
-  height: auto;
-  margin: 20px 0;
-  font-size: 15px; /* Increase font size */
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.gallery-item {
-  margin: 10px;
-}
-
-.artisan-story {
-  padding: 20px;
-}
-
-.welcome-message {
-  text-align: center;
-  align-content: center;
-}
-
-.homepage-content {
-  text-align: center;
-  color: white; /* Change text color to white */
-}
-
-footer {
-  margin-top: auto; /* Push the footer to the bottom */
-  padding: 10px;
-  background-color: #333;
-  color: white;
-  text-align: center;
-}
-
-.logo img {
-  border-radius: 50%;
-}
-
-.explore body {
-  background-image: url('Screenshot\ 2024-01-14\ 160426.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
+/* Add your existing styles or modify them as needed */
