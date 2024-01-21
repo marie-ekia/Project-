@@ -1,0 +1,54 @@
+/* explore.css */
+
+.explore-container {
+    display: flex;
+  }
+  
+  /* Gallery section on the left */
+  .gallery {
+    flex: 1; /* Takes up 50% of the container */
+    display: flex;
+    flex-wrap: wrap; /* Allows images to wrap to the next line */
+    justify-content: space-around; /* Distributes space evenly between images */
+    align-items: center;
+  }
+  
+  .gallery-item {
+    margin: 10px;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .buy-button {
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Information section on the right */
+  .information {
+    flex: 1; /* Takes up 50% of the container */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for information content */
+  .information h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .information p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

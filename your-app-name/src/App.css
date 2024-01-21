@@ -93,4 +93,13 @@ footer {
 .logo img {
   border-radius: 50%;
 }
-
+.explore-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
