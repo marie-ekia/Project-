@@ -1,7 +1,7 @@
 // Explore.js
 import React from 'react';
 import Gallery from './Gallery'; // Import the Gallery component
-import './Explore.css';
+import './explore.css';
 
 function Explore() {
   return (

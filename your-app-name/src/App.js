@@ -1,7 +1,8 @@
-
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './Header';
 import HomepageContent from './Homepagecontent';
+import Explore from './Explore';
 import Footer from './Footer';
 import './App.css';
 
@@ -9,6 +10,7 @@ function HeaderComponent() {
   return (
     <header>
       <div className="logo">
+        {/* Your logo content goes here */}
       </div>
       <nav>
         <ul>
@@ -49,11 +51,16 @@ function FooterComponent() {
 // App component
 function App() {
   return (
-    <div className="App">
-      <HeaderComponent />
-      <HomepageContentComponent />
-      <FooterComponent />
-    </div>
+    <Router>
+      <div className="App">
+        <HeaderComponent />
+        <Switch>
+          <Route path="/" exact component={HomepageContentComponent} />
+          <Route path="/explore" component={Explore} />
+        </Switch>
+        <FooterComponent />
+      </div>
+    </Router>
   );
 }
 
