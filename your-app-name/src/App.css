@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./pictures/portrait-3113651_1920.jpg');
+  background-image:'pictures/portrait-3113651_1920.jpg';
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

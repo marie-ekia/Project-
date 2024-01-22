@@ -8,15 +8,15 @@ function Explore() {
       <div className="gallery">
         {/* Gallery images */}
         <div className="gallery-item">
-          <img src={process.env.PUBLIC_URL + '/pictures/pexels-pixabay-41949.jpg'} alt="" />
+          <img src={process.env.PUBLIC_URL + 'pictures/pexels-pixabay-41949.jpg'} alt="" />
           <button className="buy-button">Buy</button>
         </div>
         <div className="gallery-item">
-          <img src={process.env.PUBLIC_URL + '/pictures/pexels-steve-johnson-1509534.jpg'} alt="" />
+          <img src={process.env.PUBLIC_URL + 'pictures/pexels-steve-johnson-1509534.jpg'} alt="" />
           <button className="buy-button">Buy</button>
         </div>
         <div className="gallery-item">
-          <img src={process.env.PUBLIC_URL + '/pictures/portrait-3113651_1920.jpg'} alt="" />
+          <img src={process.env.PUBLIC_URL + 'pictures/portrait-3113651_1920.jpg'} alt="" />
           <button className="buy-button">Buy</button>
         </div>
       </div>
